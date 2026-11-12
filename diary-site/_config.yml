@@ -1,0 +1,15 @@
+title: 日記
+lang: ja
+timezone: Asia/Tokyo
+markdown: kramdown
+kramdown:
+  hard_wrap: true   # 改行したところがそのまま改行になる
+permalink: /:year/:month/:day/
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+# リポジトリ名が「ユーザー名.github.io」以外のときは、次の行の # を外してリポジトリ名を入れる
+# baseurl: "/リポジトリ名"
